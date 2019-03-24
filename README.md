@@ -1,7 +1,7 @@
 # REDasm-Database
 
 This repo contains all needed extra information about a Loader or a specific Architecture.<br>
-Signatures are generated with [resigc](https://github.com/REDasmOrg/REDasm-Signature).
+Signatures are generated with [redsigc](https://github.com/REDasmOrg/REDasm-Signature).
 
 ### Available Signatures
 #### Windows
