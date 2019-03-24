@@ -1,0 +1,1795 @@
+{
+  "assembler": "x86_32",
+  "name": "MFC 6.0",
+  "signatures": [
+    {
+      "name": "?OnEndOfRequest@CHttpFilter@@UAEKPAVCHttpFilterContext@@@Z",
+      "patterns": [
+        {
+          "checksum": 62922,
+          "offset": 0,
+          "size": 8
+        }
+      ],
+      "size": 8,
+      "symboltype": 260
+    },
+    {
+      "name": "?OnEndOfNetSession@CHttpFilter@@UAEKPAVCHttpFilterContext@@@Z",
+      "patterns": [
+        {
+          "checksum": 62922,
+          "offset": 0,
+          "size": 8
+        }
+      ],
+      "size": 8,
+      "symboltype": 260
+    },
+    {
+      "name": "?OnLog@CHttpFilter@@UAEKPAVCHttpFilterContext@@PAU_HTTP_FILTER_LOG@@@Z",
+      "patterns": [
+        {
+          "checksum": 45223,
+          "offset": 0,
+          "size": 8
+        }
+      ],
+      "size": 8,
+      "symboltype": 260
+    },
+    {
+      "name": "?OnSendRawData@CHttpFilter@@UAEKPAVCHttpFilterContext@@PAU_HTTP_FILTER_RAW_DATA@@@Z",
+      "patterns": [
+        {
+          "checksum": 45223,
+          "offset": 0,
+          "size": 8
+        }
+      ],
+      "size": 8,
+      "symboltype": 260
+    },
+    {
+      "name": "?OnUrlMap@CHttpFilter@@UAEKPAVCHttpFilterContext@@PAU_HTTP_FILTER_URL_MAP@@@Z",
+      "patterns": [
+        {
+          "checksum": 45223,
+          "offset": 0,
+          "size": 8
+        }
+      ],
+      "size": 8,
+      "symboltype": 260
+    },
+    {
+      "name": "?OnAuthentication@CHttpFilter@@UAEKPAVCHttpFilterContext@@PAU_HTTP_FILTER_AUTHENT@@@Z",
+      "patterns": [
+        {
+          "checksum": 45223,
+          "offset": 0,
+          "size": 8
+        }
+      ],
+      "size": 8,
+      "symboltype": 260
+    },
+    {
+      "name": "?OnPreprocHeaders@CHttpFilter@@UAEKPAVCHttpFilterContext@@PAU_HTTP_FILTER_PREPROC_HEADERS@@@Z",
+      "patterns": [
+        {
+          "checksum": 45223,
+          "offset": 0,
+          "size": 8
+        }
+      ],
+      "size": 8,
+      "symboltype": 260
+    },
+    {
+      "name": "?OnReadRawData@CHttpFilter@@UAEKPAVCHttpFilterContext@@PAU_HTTP_FILTER_RAW_DATA@@@Z",
+      "patterns": [
+        {
+          "checksum": 45223,
+          "offset": 0,
+          "size": 8
+        }
+      ],
+      "size": 8,
+      "symboltype": 260
+    },
+    {
+      "name": "??1CHttpFilterContext@@QAE@XZ",
+      "patterns": [
+        {
+          "checksum": 2271,
+          "offset": 0,
+          "size": 1
+        }
+      ],
+      "size": 1,
+      "symboltype": 260
+    },
+    {
+      "name": "?HttpFilterProc@CHttpFilter@@UAEKPAU_HTTP_FILTER_CONTEXT@@KPAX@Z",
+      "patterns": [
+        {
+          "checksum": 50979,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 11826,
+          "offset": 10,
+          "size": 214
+        }
+      ],
+      "size": 219,
+      "symboltype": 260
+    },
+    {
+      "name": "?GetFilterVersion@CHttpFilter@@UAEHPAU_HTTP_FILTER_VERSION@@@Z",
+      "patterns": [
+        {
+          "checksum": 63895,
+          "offset": 0,
+          "size": 31
+        }
+      ],
+      "size": 31,
+      "symboltype": 260
+    },
+    {
+      "name": "??1CHttpFilter@@QAE@XZ",
+      "patterns": [
+        {
+          "checksum": 33517,
+          "offset": 0,
+          "size": 2
+        },
+        {
+          "checksum": 64180,
+          "offset": 12,
+          "size": 8
+        }
+      ],
+      "size": 14,
+      "symboltype": 260
+    },
+    {
+      "name": "??0CHttpFilter@@QAE@XZ",
+      "patterns": [
+        {
+          "checksum": 55779,
+          "offset": 0,
+          "size": 4
+        },
+        {
+          "checksum": 51447,
+          "offset": 16,
+          "size": 6
+        }
+      ],
+      "size": 14,
+      "symboltype": 260
+    },
+    {
+      "name": "_GetFilterVersion@4",
+      "patterns": [
+        {
+          "checksum": 4132,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 40716,
+          "offset": 20,
+          "size": 44
+        }
+      ],
+      "size": 54,
+      "symboltype": 260
+    },
+    {
+      "name": "_HttpFilterProc@12",
+      "patterns": [
+        {
+          "checksum": 4132,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 59011,
+          "offset": 20,
+          "size": 52
+        }
+      ],
+      "size": 62,
+      "symboltype": 260
+    },
+    {
+      "name": "?InitStream@CHtmlStream@@UAEXXZ",
+      "patterns": [
+        {
+          "checksum": 2271,
+          "offset": 0,
+          "size": 1
+        }
+      ],
+      "size": 1,
+      "symboltype": 260
+    },
+    {
+      "name": "?Reset@CHtmlStream@@UAEXXZ",
+      "patterns": [
+        {
+          "checksum": 50191,
+          "offset": 0,
+          "size": 9
+        }
+      ],
+      "size": 9,
+      "symboltype": 260
+    },
+    {
+      "name": "?Write@CHtmlStream@@UAEXPBXI@Z",
+      "patterns": [
+        {
+          "checksum": 8556,
+          "offset": 0,
+          "size": 66
+        }
+      ],
+      "size": 66,
+      "symboltype": 260
+    },
+    {
+      "name": "?Abort@CHtmlStream@@UAEXXZ",
+      "patterns": [
+        {
+          "checksum": 11610,
+          "offset": 0,
+          "size": 5
+        }
+      ],
+      "size": 5,
+      "symboltype": 260
+    },
+    {
+      "name": "?Close@CHtmlStream@@UAEXXZ",
+      "patterns": [
+        {
+          "checksum": 12616,
+          "offset": 0,
+          "size": 42
+        }
+      ],
+      "size": 42,
+      "symboltype": 260
+    },
+    {
+      "name": "??6CHtmlStream@@QAEAAV0@ABV0@@Z",
+      "patterns": [
+        {
+          "checksum": 23690,
+          "offset": 0,
+          "size": 24
+        }
+      ],
+      "size": 24,
+      "symboltype": 260
+    },
+    {
+      "name": "??6CHtmlStream@@QAEAAV0@N@Z",
+      "patterns": [
+        {
+          "checksum": 47892,
+          "offset": 0,
+          "size": 21
+        },
+        {
+          "checksum": 40498,
+          "offset": 50,
+          "size": 29
+        }
+      ],
+      "size": 54,
+      "symboltype": 260
+    },
+    {
+      "name": "??6CHtmlStream@@QAEAAV0@M@Z",
+      "patterns": [
+        {
+          "checksum": 8358,
+          "offset": 0,
+          "size": 21
+        },
+        {
+          "checksum": 56159,
+          "offset": 50,
+          "size": 29
+        }
+      ],
+      "size": 54,
+      "symboltype": 260
+    },
+    {
+      "name": "??6CHtmlStream@@QAEAAV0@J@Z",
+      "patterns": [
+        {
+          "checksum": 42613,
+          "offset": 0,
+          "size": 16
+        },
+        {
+          "checksum": 29080,
+          "offset": 40,
+          "size": 29
+        }
+      ],
+      "size": 49,
+      "symboltype": 260
+    },
+    {
+      "name": "??6CHtmlStream@@QAEAAV0@F@Z",
+      "patterns": [
+        {
+          "checksum": 1588,
+          "offset": 0,
+          "size": 16
+        },
+        {
+          "checksum": 50763,
+          "offset": 40,
+          "size": 31
+        }
+      ],
+      "size": 51,
+      "symboltype": 260
+    },
+    {
+      "name": "??6CHtmlStream@@QAEAAV0@PBD@Z",
+      "patterns": [
+        {
+          "checksum": 65457,
+          "offset": 0,
+          "size": 12
+        },
+        {
+          "checksum": 11483,
+          "offset": 32,
+          "size": 17
+        }
+      ],
+      "size": 33,
+      "symboltype": 260
+    },
+    {
+      "name": "?GrowStream@CHtmlStream@@MAEXK@Z",
+      "patterns": [
+        {
+          "checksum": 22580,
+          "offset": 0,
+          "size": 25
+        },
+        {
+          "checksum": 42728,
+          "offset": 58,
+          "size": 56
+        }
+      ],
+      "size": 85,
+      "symboltype": 260
+    },
+    {
+      "name": "?Free@CHtmlStream@@UAEXPAE@Z",
+      "patterns": [
+        {
+          "checksum": 44603,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 34527,
+          "offset": 20,
+          "size": 4
+        }
+      ],
+      "size": 14,
+      "symboltype": 260
+    },
+    {
+      "name": "?Memcpy@CHtmlStream@@MAEPAEPAEPBEI@Z",
+      "patterns": [
+        {
+          "checksum": 17865,
+          "offset": 0,
+          "size": 37
+        }
+      ],
+      "size": 37,
+      "symboltype": 260
+    },
+    {
+      "name": "?Realloc@CHtmlStream@@MAEPAEPAEK@Z",
+      "patterns": [
+        {
+          "checksum": 35307,
+          "offset": 0,
+          "size": 10
+        },
+        {
+          "checksum": 60208,
+          "offset": 28,
+          "size": 5
+        }
+      ],
+      "size": 19,
+      "symboltype": 260
+    },
+    {
+      "name": "?Alloc@CHtmlStream@@MAEPAEK@Z",
+      "patterns": [
+        {
+          "checksum": 44603,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 34527,
+          "offset": 20,
+          "size": 4
+        }
+      ],
+      "size": 14,
+      "symboltype": 260
+    },
+    {
+      "name": "??1CHtmlStream@@UAE@XZ",
+      "patterns": [
+        {
+          "checksum": 40601,
+          "offset": 0,
+          "size": 11
+        },
+        {
+          "checksum": 48782,
+          "offset": 30,
+          "size": 22
+        }
+      ],
+      "size": 37,
+      "symboltype": 260
+    },
+    {
+      "name": "?Detach@CHtmlStream@@QAEPAEXZ",
+      "patterns": [
+        {
+          "checksum": 52593,
+          "offset": 0,
+          "size": 52
+        }
+      ],
+      "size": 52,
+      "symboltype": 260
+    },
+    {
+      "name": "?Attach@CHtmlStream@@QAEXPAEII@Z",
+      "patterns": [
+        {
+          "checksum": 36721,
+          "offset": 0,
+          "size": 43
+        }
+      ],
+      "size": 43,
+      "symboltype": 260
+    },
+    {
+      "name": "??0CHtmlStream@@QAE@PAEII@Z",
+      "patterns": [
+        {
+          "checksum": 33829,
+          "offset": 0,
+          "size": 31
+        },
+        {
+          "checksum": 5378,
+          "offset": 70,
+          "size": 16
+        }
+      ],
+      "size": 51,
+      "symboltype": 260
+    },
+    {
+      "name": "??_GCHtmlStream@@UAEPAXI@Z",
+      "patterns": [
+        {
+          "checksum": 16671,
+          "offset": 0,
+          "size": 4
+        },
+        {
+          "checksum": 10821,
+          "offset": 16,
+          "size": 20
+        }
+      ],
+      "size": 28,
+      "symboltype": 260
+    },
+    {
+      "name": "??0CHtmlStream@@QAE@I@Z",
+      "patterns": [
+        {
+          "checksum": 47833,
+          "offset": 0,
+          "size": 13
+        },
+        {
+          "checksum": 18195,
+          "offset": 34,
+          "size": 22
+        }
+      ],
+      "size": 39,
+      "symboltype": 260
+    },
+    {
+      "name": "?PreprocessString@CHttpServer@@IAEPAXPAD@Z",
+      "patterns": [
+        {
+          "checksum": 9679,
+          "offset": 0,
+          "size": 28
+        },
+        {
+          "checksum": 52531,
+          "offset": 64,
+          "size": 156
+        }
+      ],
+      "size": 188,
+      "symboltype": 260
+    },
+    {
+      "name": "?StoreStackParameter@CHttpServer@@IAEPAEPAEEPAD@Z",
+      "patterns": [
+        {
+          "checksum": 41400,
+          "offset": 0,
+          "size": 26
+        },
+        {
+          "checksum": 64050,
+          "offset": 60,
+          "size": 83
+        }
+      ],
+      "size": 113,
+      "symboltype": 260
+    },
+    {
+      "name": "?StoreRawStackParameter@CHttpServer@@IAEPAEPAEE0@Z",
+      "patterns": [
+        {
+          "checksum": 39742,
+          "offset": 0,
+          "size": 79
+        }
+      ],
+      "size": 79,
+      "symboltype": 260
+    },
+    {
+      "name": "?PushStackArgs@CHttpServer@@IAEHPAEPAVCHttpServerContext@@PBEPAD@Z",
+      "patterns": [
+        {
+          "checksum": 26610,
+          "offset": 0,
+          "size": 68
+        },
+        {
+          "checksum": 63806,
+          "offset": 144,
+          "size": 187
+        },
+        {
+          "checksum": 14401,
+          "offset": 526,
+          "size": 27
+        }
+      ],
+      "size": 290,
+      "symboltype": 260
+    },
+    {
+      "name": "?PushDefaultStackArgs@CHttpServer@@IAEHPAEPAVCHttpServerContext@@PBEPADPAUAFX_PARSEMAP_ENTRY_PARAMS@@@Z",
+      "patterns": [
+        {
+          "checksum": 3519,
+          "offset": 0,
+          "size": 31
+        },
+        {
+          "checksum": 54304,
+          "offset": 70,
+          "size": 192
+        },
+        {
+          "checksum": 13285,
+          "offset": 462,
+          "size": 238
+        },
+        {
+          "checksum": 30995,
+          "offset": 946,
+          "size": 74
+        }
+      ],
+      "size": 547,
+      "symboltype": 260
+    },
+    {
+      "name": "?ParseDefaultParams@CHttpServer@@IAEHPAUAFX_PARSEMAP_ENTRY@@HAAPAUAFX_PARSEMAP_ENTRY_PARAMS@@PBE@Z",
+      "patterns": [
+        {
+          "checksum": 29922,
+          "offset": 8,
+          "size": 45
+        },
+        {
+          "checksum": 734,
+          "offset": 106,
+          "size": 124
+        },
+        {
+          "checksum": 9086,
+          "offset": 362,
+          "size": 352
+        },
+        {
+          "checksum": 26120,
+          "offset": 1074,
+          "size": 34
+        }
+      ],
+      "size": 571,
+      "symboltype": 260
+    },
+    {
+      "name": "?CountParams@CHttpServer@@IAEHPBDAAH@Z",
+      "patterns": [
+        {
+          "checksum": 49763,
+          "offset": 0,
+          "size": 66
+        },
+        {
+          "checksum": 2896,
+          "offset": 140,
+          "size": 120
+        }
+      ],
+      "size": 190,
+      "symboltype": 260
+    },
+    {
+      "name": "?CallMemberFunc@CHttpServer@@IAEHPAVCHttpServerContext@@PBUAFX_PARSEMAP_ENTRY@@PAU3@PAD@Z",
+      "patterns": [
+        {
+          "checksum": 56350,
+          "offset": 0,
+          "size": 24
+        },
+        {
+          "checksum": 448,
+          "offset": 56,
+          "size": 139
+        },
+        {
+          "checksum": 29257,
+          "offset": 342,
+          "size": 49
+        }
+      ],
+      "size": 220,
+      "symboltype": 260
+    },
+    {
+      "name": "?GetStackSize@CHttpServer@@IAGIPBE@Z",
+      "patterns": [
+        {
+          "checksum": 7225,
+          "offset": 0,
+          "size": 24
+        },
+        {
+          "checksum": 63652,
+          "offset": 56,
+          "size": 6
+        }
+      ],
+      "size": 34,
+      "symboltype": 260
+    },
+    {
+      "name": "?LookUp@CHttpServer@@IAEPBUAFX_PARSEMAP_ENTRY@@PBDAAPBUAFX_PARSEMAP@@AAPAU2@P81@AEXPAVCHttpServerContext@@@Z@Z",
+      "patterns": [
+        {
+          "checksum": 23439,
+          "offset": 0,
+          "size": 107
+        },
+        {
+          "checksum": 15237,
+          "offset": 222,
+          "size": 124
+        }
+      ],
+      "size": 235,
+      "symboltype": 260
+    },
+    {
+      "name": "?ConstructStream@CHttpServer@@UAEPAVCHtmlStream@@XZ",
+      "patterns": [
+        {
+          "checksum": 50979,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 5716,
+          "offset": 10,
+          "size": 50
+        }
+      ],
+      "size": 55,
+      "symboltype": 260
+    },
+    {
+      "name": "?CallFunction@CHttpServer@@UAEHPAVCHttpServerContext@@PAD1@Z",
+      "patterns": [
+        {
+          "checksum": 59240,
+          "offset": 0,
+          "size": 49
+        },
+        {
+          "checksum": 46746,
+          "offset": 106,
+          "size": 307
+        },
+        {
+          "checksum": 16582,
+          "offset": 728,
+          "size": 74
+        }
+      ],
+      "size": 438,
+      "symboltype": 260
+    },
+    {
+      "name": "?InitInstance@CHttpServer@@UAEHPAVCHttpServerContext@@@Z",
+      "patterns": [
+        {
+          "checksum": 2544,
+          "offset": 0,
+          "size": 6
+        }
+      ],
+      "size": 6,
+      "symboltype": 260
+    },
+    {
+      "name": "?EndContent@CHttpServer@@UBEXPAVCHttpServerContext@@@Z",
+      "patterns": [
+        {
+          "checksum": 460,
+          "offset": 0,
+          "size": 12
+        },
+        {
+          "checksum": 43087,
+          "offset": 32,
+          "size": 15
+        }
+      ],
+      "size": 31,
+      "symboltype": 260
+    },
+    {
+      "name": "?WriteTitle@CHttpServer@@UBEXPAVCHttpServerContext@@@Z",
+      "patterns": [
+        {
+          "checksum": 22333,
+          "offset": 0,
+          "size": 16
+        },
+        {
+          "checksum": 31531,
+          "offset": 40,
+          "size": 65
+        }
+      ],
+      "size": 85,
+      "symboltype": 260
+    },
+    {
+      "name": "?StartContent@CHttpServer@@UBEXPAVCHttpServerContext@@@Z",
+      "patterns": [
+        {
+          "checksum": 3166,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 1193,
+          "offset": 10,
+          "size": 12
+        }
+      ],
+      "size": 17,
+      "symboltype": 260
+    },
+    {
+      "name": "?AddHeader@CHttpServer@@QBEXPAVCHttpServerContext@@PBD@Z",
+      "patterns": [
+        {
+          "checksum": 2175,
+          "offset": 0,
+          "size": 24
+        },
+        {
+          "checksum": 27091,
+          "offset": 56,
+          "size": 13
+        }
+      ],
+      "size": 41,
+      "symboltype": 260
+    },
+    {
+      "name": "?OnParseError@CHttpServer@@UAEHPAVCHttpServerContext@@H@Z",
+      "patterns": [
+        {
+          "checksum": 32194,
+          "offset": 0,
+          "size": 145
+        },
+        {
+          "checksum": 10664,
+          "offset": 298,
+          "size": 122
+        },
+        {
+          "checksum": 58597,
+          "offset": 550,
+          "size": 108
+        }
+      ],
+      "size": 383,
+      "symboltype": 260
+    },
+    {
+      "name": "??1CHttpServer@@UAE@XZ",
+      "patterns": [
+        {
+          "checksum": 64180,
+          "offset": 0,
+          "size": 8
+        },
+        {
+          "checksum": 22292,
+          "offset": 24,
+          "size": 29
+        }
+      ],
+      "size": 41,
+      "symboltype": 260
+    },
+    {
+      "name": "??_GCHttpServer@@UAEPAXI@Z",
+      "patterns": [
+        {
+          "checksum": 16671,
+          "offset": 0,
+          "size": 4
+        },
+        {
+          "checksum": 10821,
+          "offset": 16,
+          "size": 20
+        }
+      ],
+      "size": 28,
+      "symboltype": 260
+    },
+    {
+      "name": "??0CHttpServer@@QAE@D@Z",
+      "patterns": [
+        {
+          "checksum": 12320,
+          "offset": 0,
+          "size": 16
+        },
+        {
+          "checksum": 35162,
+          "offset": 40,
+          "size": 28
+        }
+      ],
+      "size": 48,
+      "symboltype": 260
+    },
+    {
+      "name": "?GetExtensionVersion@CHttpServer@@UAEHPAU_HSE_VERSION_INFO@@@Z",
+      "patterns": [
+        {
+          "checksum": 20564,
+          "offset": 0,
+          "size": 20
+        }
+      ],
+      "size": 20,
+      "symboltype": 260
+    },
+    {
+      "name": "?BuildStatusCode@CHttpServer@@IAEXPADK@Z",
+      "patterns": [
+        {
+          "checksum": 58699,
+          "offset": 0,
+          "size": 8
+        },
+        {
+          "checksum": 35466,
+          "offset": 24,
+          "size": 56
+        }
+      ],
+      "size": 68,
+      "symboltype": 260
+    },
+    {
+      "name": "??1CHttpServerContext@@UAE@XZ",
+      "patterns": [
+        {
+          "checksum": 33517,
+          "offset": 0,
+          "size": 2
+        },
+        {
+          "checksum": 12318,
+          "offset": 12,
+          "size": 15
+        }
+      ],
+      "size": 21,
+      "symboltype": 260
+    },
+    {
+      "name": "??_GCHttpServerContext@@UAEPAXI@Z",
+      "patterns": [
+        {
+          "checksum": 16671,
+          "offset": 0,
+          "size": 4
+        },
+        {
+          "checksum": 10821,
+          "offset": 16,
+          "size": 20
+        }
+      ],
+      "size": 28,
+      "symboltype": 260
+    },
+    {
+      "name": "?HttpExtensionProc@CHttpServer@@UAEKPAU_EXTENSION_CONTROL_BLOCK@@@Z",
+      "patterns": [
+        {
+          "checksum": 50979,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 54930,
+          "offset": 10,
+          "size": 107
+        },
+        {
+          "checksum": 32729,
+          "offset": 232,
+          "size": 158
+        },
+        {
+          "checksum": 53458,
+          "offset": 556,
+          "size": 403
+        },
+        {
+          "checksum": 43045,
+          "offset": 1370,
+          "size": 20
+        }
+      ],
+      "size": 705,
+      "symboltype": 260
+    },
+    {
+      "name": "?OnWriteBody@CHttpServer@@UAEHPAVCHttpServerContext@@PAEKK@Z",
+      "patterns": [
+        {
+          "checksum": 36373,
+          "offset": 0,
+          "size": 102
+        }
+      ],
+      "size": 102,
+      "symboltype": 260
+    },
+    {
+      "name": "?GetQuery@CHttpServer@@IAEPADPAVCHttpServerContext@@PAD@Z",
+      "patterns": [
+        {
+          "checksum": 39324,
+          "offset": 0,
+          "size": 23
+        },
+        {
+          "checksum": 6623,
+          "offset": 54,
+          "size": 99
+        }
+      ],
+      "size": 126,
+      "symboltype": 260
+    },
+    {
+      "name": "?TerminateExtension@CHttpServer@@UAEHK@Z",
+      "patterns": [
+        {
+          "checksum": 2544,
+          "offset": 0,
+          "size": 6
+        }
+      ],
+      "size": 6,
+      "symboltype": 260
+    },
+    {
+      "name": "?TransmitFile@CHttpServerContext@@QAEHPAXK0K0K@Z",
+      "patterns": [
+        {
+          "checksum": 36566,
+          "offset": 10,
+          "size": 240
+        },
+        {
+          "checksum": 1630,
+          "offset": 498,
+          "size": 4
+        }
+      ],
+      "size": 253,
+      "symboltype": 260
+    },
+    {
+      "name": "?AfxIOCallback@@YGXPAU_EXTENSION_CONTROL_BLOCK@@PAXKK@Z",
+      "patterns": [
+        {
+          "checksum": 52243,
+          "offset": 0,
+          "size": 38
+        }
+      ],
+      "size": 38,
+      "symboltype": 260
+    },
+    {
+      "name": "?GetChunkSize@CHttpServerContext@@QBEKXZ",
+      "patterns": [
+        {
+          "checksum": 49739,
+          "offset": 0,
+          "size": 4
+        }
+      ],
+      "size": 4,
+      "symboltype": 260
+    },
+    {
+      "name": "?SetChunkSize@CHttpServerContext@@QAEKK@Z",
+      "patterns": [
+        {
+          "checksum": 29922,
+          "offset": 0,
+          "size": 13
+        }
+      ],
+      "size": 13,
+      "symboltype": 260
+    },
+    {
+      "name": "?Reset@CHttpServerContext@@QAEXXZ",
+      "patterns": [
+        {
+          "checksum": 19434,
+          "offset": 0,
+          "size": 8
+        }
+      ],
+      "size": 8,
+      "symboltype": 260
+    },
+    {
+      "name": "??1CHttpAsyncContext@@UAE@XZ",
+      "patterns": [
+        {
+          "checksum": 47575,
+          "offset": 0,
+          "size": 8
+        },
+        {
+          "checksum": 39152,
+          "offset": 24,
+          "size": 36
+        }
+      ],
+      "size": 48,
+      "symboltype": 260
+    },
+    {
+      "name": "??_GCHttpAsyncContext@@UAEPAXI@Z",
+      "patterns": [
+        {
+          "checksum": 16671,
+          "offset": 0,
+          "size": 4
+        },
+        {
+          "checksum": 10821,
+          "offset": 16,
+          "size": 20
+        }
+      ],
+      "size": 28,
+      "symboltype": 260
+    },
+    {
+      "name": "??0CHttpAsyncContext@@QAE@PAX0K0K@Z",
+      "patterns": [
+        {
+          "checksum": 20126,
+          "offset": 0,
+          "size": 19
+        },
+        {
+          "checksum": 55603,
+          "offset": 46,
+          "size": 98
+        }
+      ],
+      "size": 121,
+      "symboltype": 260
+    },
+    {
+      "name": "_TerminateExtension@4",
+      "patterns": [
+        {
+          "checksum": 4132,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 51965,
+          "offset": 20,
+          "size": 45
+        }
+      ],
+      "size": 55,
+      "symboltype": 260
+    },
+    {
+      "name": "_GetExtensionVersion@4",
+      "patterns": [
+        {
+          "checksum": 4132,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 5133,
+          "offset": 20,
+          "size": 44
+        }
+      ],
+      "size": 54,
+      "symboltype": 260
+    },
+    {
+      "name": "_HttpExtensionProc@4",
+      "patterns": [
+        {
+          "checksum": 4132,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 7451,
+          "offset": 20,
+          "size": 55
+        }
+      ],
+      "size": 65,
+      "symboltype": 260
+    },
+    {
+      "name": "??1AFX_PARSEMAP_ENTRY_PARAMS@@QAE@XZ",
+      "patterns": [
+        {
+          "checksum": 60541,
+          "offset": 0,
+          "size": 7
+        },
+        {
+          "checksum": 3180,
+          "offset": 22,
+          "size": 21
+        }
+      ],
+      "size": 32,
+      "symboltype": 260
+    },
+    {
+      "name": "??1AFX_PARSEMAP@@QAE@XZ",
+      "patterns": [
+        {
+          "checksum": 17973,
+          "offset": 0,
+          "size": 31
+        },
+        {
+          "checksum": 24394,
+          "offset": 70,
+          "size": 34
+        }
+      ],
+      "size": 69,
+      "symboltype": 260
+    },
+    {
+      "name": "?GetParseMap@CHttpServer@@UBEPBUAFX_PARSEMAP@@XZ",
+      "patterns": [
+        {
+          "checksum": 44818,
+          "offset": 0,
+          "size": 3
+        }
+      ],
+      "size": 3,
+      "symboltype": 260
+    },
+    {
+      "name": "?GetNumMapEntries@CHttpServer@@SGIXZ",
+      "patterns": [
+        {
+          "checksum": 44818,
+          "offset": 0,
+          "size": 3
+        }
+      ],
+      "size": 3,
+      "symboltype": 260
+    },
+    {
+      "name": "?_GetBaseParseMap@CHttpServer@@SGPBUAFX_PARSEMAP@@XZ",
+      "patterns": [
+        {
+          "checksum": 44818,
+          "offset": 0,
+          "size": 3
+        }
+      ],
+      "size": 3,
+      "symboltype": 260
+    },
+    {
+      "name": "_$E187",
+      "patterns": [
+        {
+          "checksum": 62669,
+          "offset": 0,
+          "size": 2
+        },
+        {
+          "checksum": 63813,
+          "offset": 12,
+          "size": 21
+        }
+      ],
+      "size": 27,
+      "symboltype": 260
+    },
+    {
+      "name": "_$E189",
+      "patterns": [
+        {
+          "checksum": 3166,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 10120,
+          "offset": 10,
+          "size": 7
+        }
+      ],
+      "size": 12,
+      "symboltype": 260
+    },
+    {
+      "name": "_$E186",
+      "patterns": [
+        {
+          "checksum": 49769,
+          "offset": 0,
+          "size": 2
+        },
+        {
+          "checksum": 61401,
+          "offset": 12,
+          "size": 25
+        }
+      ],
+      "size": 31,
+      "symboltype": 260
+    },
+    {
+      "name": "_$E190",
+      "patterns": [
+        {
+          "checksum": 40406,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 33404,
+          "offset": 10,
+          "size": 5
+        }
+      ],
+      "size": 10,
+      "symboltype": 260
+    },
+    {
+      "name": "?AfxGetResourceHandle@@YGPAUHINSTANCE__@@XZ",
+      "patterns": [
+        {
+          "checksum": 40406,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 62984,
+          "offset": 10,
+          "size": 4
+        }
+      ],
+      "size": 9,
+      "symboltype": 260
+    },
+    {
+      "name": "__AfxParseCall@12",
+      "patterns": [
+        {
+          "checksum": 37382,
+          "offset": 0,
+          "size": 17
+        }
+      ],
+      "size": 17,
+      "symboltype": 260
+    },
+    {
+      "name": "_$E372",
+      "patterns": [
+        {
+          "checksum": 3889,
+          "offset": 0,
+          "size": 8
+        },
+        {
+          "checksum": 36183,
+          "offset": 24,
+          "size": 6
+        }
+      ],
+      "size": 18,
+      "symboltype": 260
+    },
+    {
+      "name": "?AfxInitialize@@YGHHK@Z",
+      "patterns": [
+        {
+          "checksum": 40406,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 34609,
+          "offset": 10,
+          "size": 36
+        }
+      ],
+      "size": 41,
+      "symboltype": 260
+    },
+    {
+      "name": "_WinMain@16",
+      "patterns": [
+        {
+          "checksum": 45897,
+          "offset": 0,
+          "size": 17
+        },
+        {
+          "checksum": 34680,
+          "offset": 42,
+          "size": 3
+        }
+      ],
+      "size": 24,
+      "symboltype": 260
+    },
+    {
+      "name": "??1AFX_MAINTAIN_STATE2@@QAE@XZ",
+      "patterns": [
+        {
+          "checksum": 54248,
+          "offset": 0,
+          "size": 9
+        }
+      ],
+      "size": 9,
+      "symboltype": 260
+    },
+    {
+      "name": "_RawDllMain@12",
+      "patterns": [
+        {
+          "checksum": 55221,
+          "offset": 8,
+          "size": 12
+        },
+        {
+          "checksum": 23406,
+          "offset": 40,
+          "size": 51
+        },
+        {
+          "checksum": 32857,
+          "offset": 150,
+          "size": 6
+        }
+      ],
+      "size": 81,
+      "symboltype": 260
+    },
+    {
+      "name": "?AfxWndProcDllStatic@@YGJPAUHWND__@@IIJ@Z",
+      "patterns": [
+        {
+          "checksum": 50979,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 29722,
+          "offset": 10,
+          "size": 64
+        }
+      ],
+      "size": 69,
+      "symboltype": 260
+    },
+    {
+      "name": "_$E373",
+      "patterns": [
+        {
+          "checksum": 55042,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 33404,
+          "offset": 10,
+          "size": 5
+        }
+      ],
+      "size": 10,
+      "symboltype": 260
+    },
+    {
+      "name": "_$E374",
+      "patterns": [
+        {
+          "checksum": 3166,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 10120,
+          "offset": 10,
+          "size": 7
+        }
+      ],
+      "size": 12,
+      "symboltype": 260
+    },
+    {
+      "name": "??_G_AFX_DLL_MODULE_STATE@@UAEPAXI@Z",
+      "patterns": [
+        {
+          "checksum": 16671,
+          "offset": 0,
+          "size": 4
+        },
+        {
+          "checksum": 913,
+          "offset": 16,
+          "size": 19
+        }
+      ],
+      "size": 27,
+      "symboltype": 260
+    },
+    {
+      "name": "??0_AFX_DLL_MODULE_STATE@@QAE@XZ",
+      "patterns": [
+        {
+          "checksum": 8721,
+          "offset": 0,
+          "size": 7
+        },
+        {
+          "checksum": 58632,
+          "offset": 22,
+          "size": 19
+        }
+      ],
+      "size": 30,
+      "symboltype": 260
+    },
+    {
+      "name": "_$E372",
+      "patterns": [
+        {
+          "checksum": 55042,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 33404,
+          "offset": 10,
+          "size": 5
+        }
+      ],
+      "size": 10,
+      "symboltype": 260
+    },
+    {
+      "name": "_$E375",
+      "patterns": [
+        {
+          "checksum": 40406,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 33404,
+          "offset": 10,
+          "size": 5
+        }
+      ],
+      "size": 10,
+      "symboltype": 260
+    },
+    {
+      "name": "_DllCanUnloadNow@0",
+      "patterns": [
+        {
+          "checksum": 4132,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 19810,
+          "offset": 20,
+          "size": 25
+        }
+      ],
+      "size": 35,
+      "symboltype": 260
+    },
+    {
+      "name": "_DllGetClassObject@12",
+      "patterns": [
+        {
+          "checksum": 4132,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 35515,
+          "offset": 20,
+          "size": 36
+        }
+      ],
+      "size": 46,
+      "symboltype": 260
+    },
+    {
+      "name": "?ResolveSymbol@@YAHPAXKAAUSYMBOL_INFO@@@Z",
+      "patterns": [
+        {
+          "checksum": 35465,
+          "offset": 0,
+          "size": 6
+        },
+        {
+          "checksum": 7730,
+          "offset": 20,
+          "size": 87
+        },
+        {
+          "checksum": 48423,
+          "offset": 202,
+          "size": 114
+        },
+        {
+          "checksum": 61765,
+          "offset": 438,
+          "size": 149
+        },
+        {
+          "checksum": 32016,
+          "offset": 744,
+          "size": 53
+        }
+      ],
+      "size": 425,
+      "symboltype": 260
+    },
+    {
+      "name": "?GetModuleBase@@YGKPAXK@Z",
+      "patterns": [
+        {
+          "checksum": 59669,
+          "offset": 0,
+          "size": 24
+        },
+        {
+          "checksum": 15949,
+          "offset": 56,
+          "size": 132
+        }
+      ],
+      "size": 160,
+      "symboltype": 260
+    },
+    {
+      "name": "?FunctionTableAccess@@YGPAXPAXK@Z",
+      "patterns": [
+        {
+          "checksum": 35307,
+          "offset": 0,
+          "size": 10
+        },
+        {
+          "checksum": 3490,
+          "offset": 28,
+          "size": 3
+        }
+      ],
+      "size": 17,
+      "symboltype": 260
+    },
+    {
+      "name": "?AfxDumpStack@@YGXK@Z",
+      "patterns": [
+        {
+          "checksum": 50979,
+          "offset": 0,
+          "size": 1
+        },
+        {
+          "checksum": 52560,
+          "offset": 10,
+          "size": 57
+        },
+        {
+          "checksum": 52769,
+          "offset": 132,
+          "size": 86
+        },
+        {
+          "checksum": 29812,
+          "offset": 312,
+          "size": 144
+        },
+        {
+          "checksum": 33701,
+          "offset": 608,
+          "size": 82
+        },
+        {
+          "checksum": 9424,
+          "offset": 780,
+          "size": 69
+        },
+        {
+          "checksum": 60271,
+          "offset": 926,
+          "size": 55
+        }
+      ],
+      "size": 518,
+      "symboltype": 260
+    },
+    {
+      "name": "?SendOut@CTraceClipboardData@@QAEXPBD@Z",
+      "patterns": [
+        {
+          "checksum": 55082,
+          "offset": 0,
+          "size": 19
+        },
+        {
+          "checksum": 38448,
+          "offset": 46,
+          "size": 98
+        },
+        {
+          "checksum": 21531,
+          "offset": 250,
+          "size": 100
+        }
+      ],
+      "size": 225,
+      "symboltype": 260
+    },
+    {
+      "name": "??1CTraceClipboardData@@QAE@XZ",
+      "patterns": [
+        {
+          "checksum": 40453,
+          "offset": 0,
+          "size": 12
+        },
+        {
+          "checksum": 37212,
+          "offset": 32,
+          "size": 46
+        }
+      ],
+      "size": 62,
+      "symboltype": 260
+    },
+    {
+      "name": "??0CTraceClipboardData@@QAE@K@Z",
+      "patterns": [
+        {
+          "checksum": 28913,
+          "offset": 0,
+          "size": 22
+        }
+      ],
+      "size": 22,
+      "symboltype": 260
+    }
+  ],
+  "version": 1
+}
