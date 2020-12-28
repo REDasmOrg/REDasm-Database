@@ -376,5 +376,6 @@
     "375": "XBoxKrnl!MmDbgFreeMemory",
     "376": "XBoxKrnl!MmDbgQueryAvailablePages",
     "377": "XBoxKrnl!MmDbgReleaseAddress",
-    "378": "XBoxKrnl!MmDbgWriteCheck"
+    "378": "XBoxKrnl!MmDbgWriteCheck",
+    "@name": "XBox Kernel ordinals"
 }
